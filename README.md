@@ -1,5 +1,8 @@
 # AWS Serverless-Web-Application
 
+Developed a scalable web application on AWS, utilizing Amazon S3 for static content hosting and API Gateway to create RESTful endpoints. Implemented serverless Python Lambda functions to manage data operations with DynamoDB and deployed CloudFront for secure, high-performance content delivery. This solution ensured efficient, secure, and scalable web application performance.
+
+AWS Services used : CloudFront, S3, Lambda, DynamoDB, API Gateway, IAM
 ## Project Description
 
 ### 1. Setting up an S3 Bucket
