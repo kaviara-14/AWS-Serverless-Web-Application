@@ -1,6 +1,6 @@
 # AWS Serverless-Web-Application
 
-Hosted a web application in S3 buckets with static website hosting and also configured API Gateway to trigger Lambda functions for handling GET and POST requests to interact with DynamoDB database and secured the application with CloudFront.
+Hosted a web application using Amazon S3 buckets with static website hosting and configured API Gateway to trigger Lambda functions for handling GET and POST requests, which interact with a DynamoDB database for data operations. Additionally, I set up CloudFront to serve the S3 content securely over HTTPS, ensuring both enhanced performance and security for the application.
 
 
 
@@ -34,6 +34,7 @@ We’ll establish a DynamoDB table to store our application data. This involves 
 
 ### 5. Implementing Secure Connections with CloudFront 
 To secure our web application and enhance its performance, we'll use Amazon CloudFront as a content delivery network (CDN). CloudFront will be configured to serve the content from our S3 bucket over HTTPS, ensuring encrypted connections and improving the loading speed of our website through distributed caching.
+
 
 <img src="https://github.com/user-attachments/assets/2ffaaa6d-8306-4327-8280-f737abf67113">
 
